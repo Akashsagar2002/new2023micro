@@ -1,0 +1,181 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static "assets/img/1mc.jpg" %}" rel="icon">
+  <link href="{% static "assets/img/apple-touch-icon.png" %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="{% static "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" %}" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static "assets/vendor/animate.css/animate.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap-icons/bootstrap-icons.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/boxicons/css/boxicons.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/glightbox/css/glightbox.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/remixicon/remixicon.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/swiper/swiper-bundle.min.css" %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static "assets/css/style.css" %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  {% include 'header.html' %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static "assets/img/4mc.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">What is <span>Microcontroller?</span></h2>
+              <p class="animate__animated animate__fadeInUp">
+                A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.<br>Sometimes referred to as an embedded controller or microcontroller unit (MCU), microcontrollers are found in vehicles, robots, office machines, medical devices, mobile radio transceivers, vending machines and home appliances, among other devices. They are essentially simple miniature personal computers (PCs) designed to control small features of a larger component, without a complex front-end operating system (OS).
+              </p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({% static "assets/img/2mc.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">PIC18fXXX</h2>
+              <p class="animate__animated animate__fadeInUp">PIC is a Peripheral Interface Microcontroller which was developed in the year 1993 by the General Instruments Microcontrollers. It is controlled by software and programmed in such a way that it performs different tasks and controls a generation line.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({% static "assets/img/1mc.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Microprocessors</h2>
+              <p class="animate__animated animate__fadeInUp">A microprocessor is a computer processor where the data processing logic and control is included on a single integrated circuit (IC), or a small number of ICs. The microprocessor contains the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit (CPU).</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Introduction to Microcontrollers</h2>
+            <h4>
+              <ul>
+                <li><i class="bi bi-dot"></i> Introduction to Microcontroller Architecture</li>
+                <li><i class="bi bi-dot"></i> IO Port Interfacing-I</li>
+                <li><i class="bi bi-dot"></i> PIC 18F XXXX Microcontroller Architecture</li>
+                <li><i class="bi bi-dot"></i> Peripheral Support in PIC 18FXXXX</li>
+                <li><i class="bi bi-dot"></i> Real Word Interfacing With 18FXXXX </li>
+                <li><i class="bi bi-dot"></i> Serial Port Programming interfacing with 18FXXXX</li>
+              </ul>
+            <h4> 
+
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              A microcontroller is a small and low-cost microcomputer, which is designed to perform the specific tasks of embedded systems like displaying microwave’s information, receiving remote signals, etc.
+              The general microcontroller consists of the processor, the memory (RAM, ROM, EPROM), Serial ports, peripherals (timers, counters), etc.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Microcontrollers are used to execute a single task within an application.</li>
+              <li><i class="ri-check-double-line"></i> It is built with CMOS technology, which requires less power to operate.</li>
+              <li><i class="ri-check-double-line"></i> It consists of CPU, RAM, ROM, I/O ports</li>
+            </ul>
+            <p class="fst-italic">
+              <strong>Types of Microcontrollers</strong>
+              <br>
+              Microcontrollers are divided into various categories based on memory, architecture, bits and instruction sets. Following is the list of their types −
+              <br>
+              <dfn>
+                <strong>Bit - </strong> Based on bit configuration, the microcontroller is further divided into three categories.
+                <ul>
+                  <li><i class="bi bi-dot"></i> 8-bit microcontroller - This type of microcontroller is used to execute arithmetic and logical operations like addition, subtraction, multiplication division, etc. For example, Intel 8031 and 8051 are 8 bits microcontroller.</li>
+                  <li><i class="bi bi-dot"></i> 16-bit microcontroller - This type of microcontroller is used to perform arithmetic and logical operations where higher accuracy and performance is required. For example, Intel 8096 is a 16-bit microcontroller.</li>
+                  <li><i class="bi bi-dot"></i> 32-bit microcontroller - This type of microcontroller is generally used in automatically controlled appliances like automatic operational machines, medical appliances, etc.</li>
+                </ul>
+              </dfn>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <a href="{% url "Services" %}">
+              <i class="bi bi-filetype-pdf"></i>
+              <h4><a href="{% url "Services" %}">Microcontrollers MaterialsS</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <a href="{% url "Services" %}">
+              <i class="bi bi-file-earmark-pdf-fill"></i>
+              <h4><a href="{% url "Services" %}">PIC</a></h4>
+              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  </main><!-- End #main -->
+
+{% include 'footer.html' %}
+
+
+</body>
+
+</html>
